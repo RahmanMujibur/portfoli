@@ -1,0 +1,107 @@
+body{
+    font-family: 'Lobster', cursive;
+    background-color: #202020;
+}
+
+.header{
+    /* background-color: orange; */
+    padding: 26px 0px;
+}
+
+.header-nav li a{
+    color:#ffffff;
+    font-size: 15px;
+    font-weight: 400px;
+}
+
+.header-nav li a:hover{
+    color: blue;
+}
+
+.banner{
+    background-color: aliceblue;
+    padding-top: 50px;
+    position: relative;
+}
+
+.banner-pattern{
+    position: absolute;
+    left: -20px;
+    top: 80px;
+}
+
+.banner-content{
+    padding-right: 110px;
+}
+
+.banner-content h4{
+    font-size: 20px;
+    font-weight: 500px;
+    color: blueviolet;
+}
+
+.banner-content h4{
+    font-size: 44px;
+    font-weight: 400px;
+}
+
+.banner-content p{
+    font-size: 44px;
+    color: red;
+    font-weight: 700px;
+}
+
+.banner-content a{
+    padding: 18px 42px;
+    background-color: red;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.banner_img img{
+    box-shadow: -25px 25px 0px #ffffff;
+}
+.banner_img{
+    position: relative;
+}
+.boll{
+    position: absolute;
+    right: -20px;
+    z-index: -1;
+    top: -20px;
+}
+.service{
+    background-color: orange;
+    margin-top: 120px;
+}
+.service_heading h2{
+    font-size: 34px;
+    font-weight: 600px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.service_underline{
+    width: 100px;
+    height: 4px;
+    background-color: red;
+}
+.service_heading p{
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 28px;
+    font-weight: 400;
+    margin-top: 40px;
+
+}
+.service_item i{
+    font-size: 30px;
+    padding: 15px;
+    background-color: red;
+    border-radius: 50%;
+    color: #ffffff;
+    
+}
